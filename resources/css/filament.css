@@ -1,0 +1,6 @@
+@import "../../vendor/filament/filament/resources/css/app.css";
+
+/* non-sticky toolbar */
+.filament-main-topbar {
+    position: relative;
+}

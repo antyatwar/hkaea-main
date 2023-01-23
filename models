@@ -1,0 +1,139 @@
+role:
+    admin
+    customer
+    guest
+    participant
+    basic
+    individual
+    professional
+    npo
+    corporate
+
+user:
+
+participant:
+
+competition:
+
+Basic:
+    firstname_cn:
+    lastname_cn:
+    firstname_en:
+    lastname_en:
+    gender:
+    birthday:
+    occupation:
+    postal_address:
+    country:
+    phone:
+    whatsapp:
+    fax:
+
+    qualification: 
+        Doctorate Degree
+        Master
+        PGCE
+        PGDE
+        Bachelor
+        Bachelor (EDU)
+        Sub-Degree
+        Secondary
+        Primary
+        Others (Please specified)
+
+    professional_background:
+        Drawing/ Painting
+        Handicraft/ Art Craft
+        Sculpture
+        Music
+        Dance
+        Drama
+        Film
+        Photography
+        Education
+        Advertising
+        Literature
+        Multimedia
+        Graphic Design
+        Fashion Design
+        Image and Styling
+        Installation
+        Creative Art/ Art Therapy
+        Others (Please Specify)
+        Remarks
+
+    volunteer: boolean
+
+    survey:
+        School
+        Search Engines
+        HKAEA Websites/ Facebook/ Instagram
+        Referrer
+        Friends/ Colleagues/ Family
+        Newsletter/ Publication
+        Other (Please Specify)
+
+    comment:
+
+Individual:
+    other_sup_doc: upload file
+    fee: $200
+
+Professional:
+    other_sup_doc: upload file
+    fee: $400
+    tutor: boolean
+    social: boolean
+
+School Organization:
+    org_name_en:
+    org_name_cn:
+    org_address:
+    pic_name_en:
+    pic_name_cn:
+    pic_title:
+    pic_email:
+    pic_phone:
+    cp_name_en:
+    cp_name_cn:
+    cp_title:
+    cp_phone:
+    org_cat:
+        Kindergarten
+        Primary School
+        Secondary School
+        Collage/ University
+        Special School
+        NGO
+        NPO
+        Company
+        Others (Please Specify)
+    sup_doc_type:
+        Business/ Society Registration Certificate
+        Non-profit Organization Proof Documents
+        Others
+    business_society_registration_number:
+    subscription_of_interested_fields:
+        Drawing/ Painting
+        Handicraft/ Art Craft
+        Sculpture
+        Music
+        Dance
+        Drama
+        Film
+        Photography
+        Education
+        Advertising
+        Literature
+        Multimedia
+        Graphic Design
+        Fashion Design
+        Image and Styling
+        Installation
+        Creative Art/ Art Therapy
+    fee:
+        $500
+
+Corporate:
+    fee:
+        $1,500
